@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Address.jnlp">
+  <information>
+    <title>Address</title>
+    <vendor>Test</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Address.jar" size="24135" download="eager" />
+    <jar href="lib\javafx-dialogs-0.0.4.jar" size="118239" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Address" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ch.makery.address.MainApp"  name="Address" />
+  <update check="always"/>
+</jnlp>
